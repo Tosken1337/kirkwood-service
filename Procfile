@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* Application
+web: java -Dserver.port=$PORT -jar target/kirkwood-service-0.1.0.jar
